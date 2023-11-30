@@ -9,10 +9,9 @@ class BooksRepositoryImpl implements BooksRepository {
 
     @Override
     List<Book> findAll() {
-        [
-            new Book("1491950358", "Building Microservices"),
-            new Book("1680502395", "Release It!"),
-        ]
+            [
+            new Book("1491950358", "Java for Dummies"),
+            new Book("1680502395", "Effective Java"),
+            ]
+        }
     }
-}
-

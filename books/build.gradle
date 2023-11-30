@@ -27,7 +27,7 @@ dependencies {
     compile "io.micronaut:micronaut-http-client"
     compile "io.micronaut:micronaut-http-server-netty"
     compileOnly "io.micronaut:micronaut-inject-groovy"
-    runtime "ch.qos.logback:logback-classic:1.2.3"
+    runtime "ch.qos.logback:logback-classic:1.4.13"
     runtime "io.micronaut:micronaut-discovery-client"
     testCompile "io.micronaut:micronaut-inject-groovy"
     testCompile("org.spockframework:spock-core") {

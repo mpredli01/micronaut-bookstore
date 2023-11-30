@@ -13,8 +13,8 @@ class BooksController {
     @Get("/inventory/{isbn}") 
     fun inventory(isbn: String): HttpResponse<Int> {
         return when (isbn) { 
-            "1491950358" -> HttpResponse.ok(2) 
-            "1680502395" -> HttpResponse.ok(3) 
+            "1491950358" -> HttpResponse.ok(25)
+            "1680502395" -> HttpResponse.ok(33)
             else -> HttpResponse.notFound()
         }
     }

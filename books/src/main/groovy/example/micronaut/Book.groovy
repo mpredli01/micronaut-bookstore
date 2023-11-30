@@ -8,5 +8,4 @@ import groovy.transform.TupleConstructor
 class Book {
     String isbn
     String name
-}
-
+    }

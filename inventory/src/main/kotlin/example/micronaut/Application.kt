@@ -10,5 +10,5 @@ object Application {
                 .packages("example.micronaut")
                 .mainClass(Application.javaClass)
                 .start()
+        }
     }
-}

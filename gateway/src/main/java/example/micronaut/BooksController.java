@@ -12,7 +12,7 @@ import io.reactivex.Flowable;
     public BooksController(BooksFetcher booksFetcher, InventoryFetcher inventoryFetcher) {
         this.booksFetcher = booksFetcher;
         this.inventoryFetcher = inventoryFetcher; 
-    }
+        }
 
     @Get("/books") Flowable<Book> findAll() { 
         return booksFetcher.fetchBooks()
@@ -24,6 +24,5 @@ import io.reactivex.Flowable;
                         })
                     );
 
+        }
     }
-}
-

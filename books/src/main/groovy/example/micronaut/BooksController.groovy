@@ -12,11 +12,10 @@ class BooksController {
 
     BooksController(BooksRepository booksRepository) {
         this.booksRepository = booksRepository
-    }
+        }
 
     @Get("/books")
     List<Book> list() {
         booksRepository.findAll()
+        }
     }
-}
-
